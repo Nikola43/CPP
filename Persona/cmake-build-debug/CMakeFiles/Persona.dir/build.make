@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files (x86)\JetBrains\CLion 2016.3\bin\cmake\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Users\psoares\AppData\Roaming\JetBrains\CLion 2016.3\bin\cmake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files (x86)\JetBrains\CLion 2016.3\bin\cmake\bin\cmake.exe" -E remove -f
+RM = "C:\Users\psoares\AppData\Roaming\JetBrains\CLion 2016.3\bin\cmake\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Loft\Github\Persona
+CMAKE_SOURCE_DIR = C:\Users\psoares\Github\CPP\Persona
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Loft\Github\Persona\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\psoares\Github\CPP\Persona\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Persona.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/Persona.dir/flags.make
 
 CMakeFiles/Persona.dir/main.cpp.obj: CMakeFiles/Persona.dir/flags.make
 CMakeFiles/Persona.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Loft\Github\Persona\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Persona.dir/main.cpp.obj"
-	C:\mingw-w64\x86_64-6.1.0-posix-seh-rt_v5-rev1\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Persona.dir\main.cpp.obj -c C:\Users\Loft\Github\Persona\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\psoares\Github\CPP\Persona\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Persona.dir/main.cpp.obj"
+	C:\Users\psoares\Documents\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Persona.dir\main.cpp.obj -c C:\Users\psoares\Github\CPP\Persona\main.cpp
 
 CMakeFiles/Persona.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Persona.dir/main.cpp.i"
-	C:\mingw-w64\x86_64-6.1.0-posix-seh-rt_v5-rev1\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Loft\Github\Persona\main.cpp > CMakeFiles\Persona.dir\main.cpp.i
+	C:\Users\psoares\Documents\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\psoares\Github\CPP\Persona\main.cpp > CMakeFiles\Persona.dir\main.cpp.i
 
 CMakeFiles/Persona.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Persona.dir/main.cpp.s"
-	C:\mingw-w64\x86_64-6.1.0-posix-seh-rt_v5-rev1\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Loft\Github\Persona\main.cpp -o CMakeFiles\Persona.dir\main.cpp.s
+	C:\Users\psoares\Documents\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\psoares\Github\CPP\Persona\main.cpp -o CMakeFiles\Persona.dir\main.cpp.s
 
 CMakeFiles/Persona.dir/main.cpp.obj.requires:
 
@@ -82,16 +82,16 @@ CMakeFiles/Persona.dir/main.cpp.obj.provides.build: CMakeFiles/Persona.dir/main.
 
 CMakeFiles/Persona.dir/Persona.cpp.obj: CMakeFiles/Persona.dir/flags.make
 CMakeFiles/Persona.dir/Persona.cpp.obj: ../Persona.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Loft\Github\Persona\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Persona.dir/Persona.cpp.obj"
-	C:\mingw-w64\x86_64-6.1.0-posix-seh-rt_v5-rev1\mingw64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Persona.dir\Persona.cpp.obj -c C:\Users\Loft\Github\Persona\Persona.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\psoares\Github\CPP\Persona\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Persona.dir/Persona.cpp.obj"
+	C:\Users\psoares\Documents\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Persona.dir\Persona.cpp.obj -c C:\Users\psoares\Github\CPP\Persona\Persona.cpp
 
 CMakeFiles/Persona.dir/Persona.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Persona.dir/Persona.cpp.i"
-	C:\mingw-w64\x86_64-6.1.0-posix-seh-rt_v5-rev1\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Loft\Github\Persona\Persona.cpp > CMakeFiles\Persona.dir\Persona.cpp.i
+	C:\Users\psoares\Documents\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\psoares\Github\CPP\Persona\Persona.cpp > CMakeFiles\Persona.dir\Persona.cpp.i
 
 CMakeFiles/Persona.dir/Persona.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Persona.dir/Persona.cpp.s"
-	C:\mingw-w64\x86_64-6.1.0-posix-seh-rt_v5-rev1\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Loft\Github\Persona\Persona.cpp -o CMakeFiles\Persona.dir\Persona.cpp.s
+	C:\Users\psoares\Documents\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\psoares\Github\CPP\Persona\Persona.cpp -o CMakeFiles\Persona.dir\Persona.cpp.s
 
 CMakeFiles/Persona.dir/Persona.cpp.obj.requires:
 
@@ -118,7 +118,7 @@ Persona.exe: CMakeFiles/Persona.dir/build.make
 Persona.exe: CMakeFiles/Persona.dir/linklibs.rsp
 Persona.exe: CMakeFiles/Persona.dir/objects1.rsp
 Persona.exe: CMakeFiles/Persona.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Loft\Github\Persona\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Persona.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\psoares\Github\CPP\Persona\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Persona.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Persona.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -136,6 +136,6 @@ CMakeFiles/Persona.dir/clean:
 .PHONY : CMakeFiles/Persona.dir/clean
 
 CMakeFiles/Persona.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Loft\Github\Persona C:\Users\Loft\Github\Persona C:\Users\Loft\Github\Persona\cmake-build-debug C:\Users\Loft\Github\Persona\cmake-build-debug C:\Users\Loft\Github\Persona\cmake-build-debug\CMakeFiles\Persona.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\psoares\Github\CPP\Persona C:\Users\psoares\Github\CPP\Persona C:\Users\psoares\Github\CPP\Persona\cmake-build-debug C:\Users\psoares\Github\CPP\Persona\cmake-build-debug C:\Users\psoares\Github\CPP\Persona\cmake-build-debug\CMakeFiles\Persona.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Persona.dir/depend
 

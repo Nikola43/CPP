@@ -10,14 +10,14 @@ class Persona
 
     public:
         //Metodos getter y setter
-        void setNombre( char nombre[20] );
+        void setNombre( char* nombre );
         char* getNombre( void );
         void setEdad( int edad );
         int  getEdad( void );
 
         // Contructores
         Persona( ); //Constructor vacio
-        Persona( char nombre[20], int edad ); //Contructor con parametros
+        Persona( char* nombre, int edad ); //Contructor con parametros
 };
 
 

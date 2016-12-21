@@ -8,7 +8,7 @@ Persona::Persona(  )
 }
 
 //Contructor con parametros
-Persona::Persona( char nombre[20], int edad )
+Persona::Persona( char* nombre, int edad )
 {
     this->nombre = nombre;
     this->edad = edad;
@@ -25,7 +25,7 @@ int Persona::getEdad()
     return ( edad );
 }
 
-void Persona::setNombre(char *nombre)
+void Persona::setNombre(char* nombre)
 {
     this->nombre = nombre;
 }
